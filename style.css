@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background-image: url(https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?t=st=1651251317~exp=1651251917~hmac=a43cbeeaf0fd10b9bff046d7ad7dda85fea0bae4fd81d3378ce9639820736872&w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #001D6E;
+    
+
+}
+form {
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#question{
+    padding: 20px;
+  
+}
+ .btn{
+     width: 100%;
+     padding: 15px;
+     font-size: 15px;
+     background-color: white;
+     font-weight: bold;
+     border-radius: 10px;
+     box-shadow:12px 14px 22px rgba(0, 0, 255, 1);
+-webkit-box-shadow:12px 14px 22px rgba(0, 0, 255, 1);
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+
+ #result{
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+@media all and (max-width:500px){
+    form{
+         padding: 20px;
+       font-size: 10px;
+    }
+}
